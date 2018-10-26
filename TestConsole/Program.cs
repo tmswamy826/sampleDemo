@@ -55,6 +55,8 @@ namespace TestConsole
         public static void windowsAuthentication_check( string Username,string password)
         {
             bool flag = false;
+
+
             try
             {
                 using (PrincipalContext principalContext = new PrincipalContext(ContextType.Domain))
